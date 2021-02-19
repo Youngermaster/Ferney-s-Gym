@@ -7,7 +7,6 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeroComponent } from './hero/hero.component';
-import { RutinesComponent } from './rutines/rutines.component';
 import { RutineComponent } from './rutine/rutine.component';
 
 @NgModule({
@@ -15,7 +14,6 @@ import { RutineComponent } from './rutine/rutine.component';
     AppComponent,
     NavbarComponent,
     HeroComponent,
-    RutinesComponent,
     RutineComponent
   ],
   imports: [

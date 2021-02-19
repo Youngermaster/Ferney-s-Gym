@@ -8,13 +8,21 @@ import { environment } from '../environments/environment';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeroComponent } from './hero/hero.component';
 import { RutineComponent } from './rutine/rutine.component';
+import { ExerciseComponent } from './exercise/exercise.component';
+import { RutineCardComponent } from './rutine-card/rutine-card.component';
+import { ExerciseCardComponent } from './exercise-card/exercise-card.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HeroComponent,
-    RutineComponent
+    RutineComponent,
+    ExerciseComponent,
+    RutineCardComponent,
+    ExerciseCardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

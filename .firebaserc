@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ferneysgym": {
+      "hosting": {
+        "ferneys-gym": [
+          "ferneysgym"
+        ]
+      }
+    }
+  }
+}
